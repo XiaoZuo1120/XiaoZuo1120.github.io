@@ -5,25 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 6.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/1536447241/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/1536447241/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/1536447241/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/1536447241/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/1536447241/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/1536447241/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"space.bilibili.com","root":"/1536447241/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"xiaozuo1120.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="用python爬取酷狗音乐 （此文为小左1120原创，转载请标明出处，如违规请联系作者立刻删除） 此文为python爬虫文章，讲了用python爬取某狗里的歌名并下载（包括vip）后面带exe  2020&#x2F;8&#x2F;5 由于本人爬虫经验不足，代码可能会粗糙，有bug，麻烦大佬加个微信QQ一起学吧！代码失效了也给我通知一声 微信：aicoder-XZ QQ：2583188733 老规矩 配置好pyt">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用python爬取酷狗音乐">
-<meta property="og:url" content="https://space.bilibili.com/1536447241/post/%E7%94%A8python%E7%88%AC%E5%8F%96%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.html">
+<meta property="og:url" content="https://xiaozuo1120.github.io/post/%E7%94%A8python%E7%88%AC%E5%8F%96%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.html">
 <meta property="og:site_name" content="小左1120的博客">
 <meta property="og:description" content="用python爬取酷狗音乐 （此文为小左1120原创，转载请标明出处，如违规请联系作者立刻删除） 此文为python爬虫文章，讲了用python爬取某狗里的歌名并下载（包括vip）后面带exe  2020&#x2F;8&#x2F;5 由于本人爬虫经验不足，代码可能会粗糙，有bug，麻烦大佬加个微信QQ一起学吧！代码失效了也给我通知一声 微信：aicoder-XZ QQ：2583188733 老规矩 配置好pyt">
 <meta property="og:locale" content="zh_CN">
@@ -45,7 +45,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200805213159199.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Njk3NTcxNA==,size_16,color_FFFFFF,t_70">
 
-<link rel="canonical" href="https://space.bilibili.com/1536447241/post/%E7%94%A8python%E7%88%AC%E5%8F%96%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.html">
+<link rel="canonical" href="https://xiaozuo1120.github.io/post/%E7%94%A8python%E7%88%AC%E5%8F%96%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.html">
 
 
 <script id="page-configurations">
@@ -107,7 +107,7 @@
 
   <div class="site-meta">
 
-    <a href="/1536447241/" class="brand" rel="start">
+    <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">小左1120的博客</h1>
       <span class="logo-line-after"><i></i></span>
@@ -129,17 +129,17 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/1536447241/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/1536447241/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/1536447241/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -197,10 +197,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://space.bilibili.com/1536447241/post/%E7%94%A8python%E7%88%AC%E5%8F%96%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.html">
+    <link itemprop="mainEntityOfPage" href="https://xiaozuo1120.github.io/post/%E7%94%A8python%E7%88%AC%E5%8F%96%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/1536447241/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="小左1120">
       <meta itemprop="description" content="这是由一位初中生搭建的技术博客，全网搜小左1120关注我！">
     </span>
@@ -235,15 +235,15 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/1536447241/categories/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/" itemprop="url" rel="index"><span itemprop="name">小学时代</span></a>
+                  <a href="/categories/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/" itemprop="url" rel="index"><span itemprop="name">小学时代</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/1536447241/categories/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
+                  <a href="/categories/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/1536447241/categories/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/Python/%E7%88%AC%E8%99%AB/" itemprop="url" rel="index"><span itemprop="name">爬虫</span></a>
+                  <a href="/categories/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/Python/%E7%88%AC%E8%99%AB/" itemprop="url" rel="index"><span itemprop="name">爬虫</span></a>
                 </span>
             </span>
 
@@ -656,9 +656,9 @@ r <span class="token operator">=</span> requests<span class="token punctuation">
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/1536447241/tags/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/" rel="tag"># 小学时代</a>
-              <a href="/1536447241/tags/Python/" rel="tag"># Python</a>
-              <a href="/1536447241/tags/%E7%88%AC%E8%99%AB/" rel="tag"># 爬虫</a>
+              <a href="/tags/%E5%B0%8F%E5%AD%A6%E6%97%B6%E4%BB%A3/" rel="tag"># 小学时代</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/%E7%88%AC%E8%99%AB/" rel="tag"># 爬虫</a>
           </div>
 
         
@@ -734,7 +734,7 @@ r <span class="token operator">=</span> requests<span class="token punctuation">
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/1536447241/archives/">
+          <a href="/archives/">
         
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
@@ -807,30 +807,30 @@ r <span class="token operator">=</span> requests<span class="token punctuation">
   </div>
 
   
-  <script src="/1536447241/lib/anime.min.js"></script>
-  <script src="/1536447241/lib/velocity/velocity.min.js"></script>
-  <script src="/1536447241/lib/velocity/velocity.ui.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/1536447241/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
-<script src="/1536447241/js/motion.js"></script>
-
-
-<script src="/1536447241/js/schemes/muse.js"></script>
+<script src="/js/motion.js"></script>
 
 
-<script src="/1536447241/js/next-boot.js"></script>
+<script src="/js/schemes/muse.js"></script>
 
 
-
-
-  
+<script src="/js/next-boot.js"></script>
 
 
 
 
   
-<script src="/1536447241/js/local-search.js"></script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
