@@ -13,15 +13,11 @@
     
     <categories>
       
-      <category>VM</category>
+      <category>教程指南</category>
       
-      <category>虚拟机</category>
+      <category>虚拟化</category>
       
-      <category>激活码</category>
-      
-      <category>破解</category>
-      
-      <category>小学时代</category>
+      <category>VMware</category>
       
     </categories>
     
@@ -30,13 +26,11 @@
       
       <tag>小学时代</tag>
       
-      <tag>VM</tag>
-      
-      <tag>虚拟机</tag>
-      
       <tag>激活码</tag>
       
-      <tag>破解</tag>
+      <tag>安装教程</tag>
+      
+      <tag>VMware</tag>
       
     </tags>
     
@@ -54,13 +48,11 @@
     
     <categories>
       
-      <category>小学时代</category>
+      <category>资源分享</category>
       
-      <category>破解</category>
+      <category>开发工具</category>
       
-      <category>markdownpad</category>
-      
-      <category>注册码</category>
+      <category>MarkdownPad</category>
       
     </categories>
     
@@ -69,11 +61,9 @@
       
       <tag>小学时代</tag>
       
-      <tag>破解</tag>
-      
-      <tag>markdownpad</tag>
-      
       <tag>注册码</tag>
+      
+      <tag>MarkdownPad</tag>
       
     </tags>
     
@@ -91,13 +81,11 @@
     
     <categories>
       
-      <category>小学时代</category>
+      <category>教程指南</category>
       
-      <category>WTG</category>
+      <category>系统部署</category>
       
-      <category>操作系统</category>
-      
-      <category>windows</category>
+      <category>Windows To Go</category>
       
     </categories>
     
@@ -106,11 +94,11 @@
       
       <tag>小学时代</tag>
       
-      <tag>操作系统</tag>
-      
       <tag>WTG</tag>
       
-      <tag>windows</tag>
+      <tag>Windows</tag>
+      
+      <tag>系统部署</tag>
       
     </tags>
     
@@ -128,13 +116,13 @@
     
     <categories>
       
-      <category>小学时代</category>
-      
-      <category>Linux</category>
+      <category>教程指南</category>
       
       <category>操作系统</category>
       
-      <category>ubuntu</category>
+      <category>Linux</category>
+      
+      <category>Ubuntu</category>
       
     </categories>
     
@@ -145,9 +133,11 @@
       
       <tag>Linux</tag>
       
-      <tag>操作系统</tag>
+      <tag>Ubuntu</tag>
       
-      <tag>ubuntu</tag>
+      <tag>双系统</tag>
+      
+      <tag>安装教程</tag>
       
     </tags>
     
@@ -165,11 +155,13 @@
     
     <categories>
       
-      <category>小学时代</category>
+      <category>教程指南</category>
+      
+      <category>编程开发</category>
       
       <category>Python</category>
       
-      <category>爬虫</category>
+      <category>网络爬虫</category>
       
     </categories>
     
@@ -181,6 +173,8 @@
       <tag>Python</tag>
       
       <tag>爬虫</tag>
+      
+      <tag>酷狗音乐</tag>
       
     </tags>
     
@@ -198,13 +192,13 @@
     
     <categories>
       
-      <category>小学时代</category>
+      <category>教程指南</category>
       
-      <category>python</category>
+      <category>编程开发</category>
       
-      <category>pycharm</category>
+      <category>Python</category>
       
-      <category>IDE</category>
+      <category>环境配置</category>
       
     </categories>
     
@@ -213,11 +207,13 @@
       
       <tag>小学时代</tag>
       
-      <tag>python</tag>
-      
-      <tag>pycharm</tag>
-      
       <tag>IDE</tag>
+      
+      <tag>Python</tag>
+      
+      <tag>PyCharm</tag>
+      
+      <tag>开发环境</tag>
       
     </tags>
     
@@ -235,13 +231,13 @@
     
     <categories>
       
-      <category>小学时代</category>
+      <category>教程指南</category>
       
-      <category>python</category>
+      <category>编程开发</category>
       
-      <category>pip</category>
+      <category>Python</category>
       
-      <category>换源/加速</category>
+      <category>环境配置</category>
       
     </categories>
     
@@ -250,11 +246,13 @@
       
       <tag>小学时代</tag>
       
-      <tag>python</tag>
-      
       <tag>pip</tag>
       
-      <tag>换源/加速</tag>
+      <tag>Python</tag>
+      
+      <tag>换源</tag>
+      
+      <tag>加速</tag>
       
     </tags>
     
@@ -266,11 +264,11 @@
   
   
   <entry>
-    <title>about</title>
+    <title>关于</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="💻-关于我"><a href="#💻-关于我" class="headerlink" title="💻 关于我"></a>💻 关于我</h1><p>大家好，我是 <strong>小左</strong>（ID：小左1120）！<br>我从<strong>小学起就对计算机技术充满热情</strong>，这个博客记录了我早期学习路上的一些探索与实践——虽然只是冰山一角，却是我成长的真实足迹。</p><h2 id="📚-我的成长时间线"><a href="#📚-我的成长时间线" class="headerlink" title="📚 我的成长时间线"></a>📚 我的成长时间线</h2><ul><li><strong>2016 – 2022</strong>：小学时代（博客多数内容创作于此阶段）  </li><li><strong>2022 – 2025</strong>：初中  </li><li><strong>2025 – 2028</strong>：高中（当前阶段）</li></ul><blockquote><p>技术之路，始于好奇，成于坚持。虽然目前停更了，2333.</p></blockquote><hr><h2 id="🌐-我在其他平台"><a href="#🌐-我在其他平台" class="headerlink" title="🌐 我在其他平台"></a>🌐 我在其他平台</h2><p>我也活跃于多个内容平台，欢迎关注！</p><ul><li><p>📺 <strong>视频创作者</strong>  </p><ul><li><a href="https://space.bilibili.com/1536447241/">Bilibili（B站）</a>（主阵地，可私信联系我）  </li><li>抖音 &#x2F; 西瓜视频 &#x2F; 好看视频：搜索 <strong>小左1120</strong></li></ul></li><li><p>💻 <strong>技术社区</strong>  </p><ul><li><a href="https://blog.csdn.net/weixin_46975714/">CSDN 博客</a></li></ul></li></ul><p>🔍 <strong>全网统一 ID：<code>小左1120</code></strong></p><hr><h2 id="📩-联系我"><a href="#📩-联系我" class="headerlink" title="📩 联系我"></a>📩 联系我</h2><p>想交流技术、提建议，或只是打个招呼？<br>👉 <strong>欢迎在 Bilibili 给我发私信！</strong></p><blockquote><p>感谢你的到访，希望我的分享对你有所帮助！</p></blockquote>]]></content>
     
   </entry>
   
